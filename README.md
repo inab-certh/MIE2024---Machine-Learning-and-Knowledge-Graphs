@@ -19,7 +19,8 @@ graph LR
     A[Drug] -->|interacts with| B[Protein]
     B -->|part of| C[Pathway]
     C -->|involves| D[Gene]
-    E[Hidden Node] -.->|potential link| B
+    X[Another Interaction] --> E[Hidden Node]
+    E -.->|potential link| B
     E -.->|potential link| C
     B -->|potential prediction| F[Drug Safety Indicator]
     D -->|potential prediction| F
