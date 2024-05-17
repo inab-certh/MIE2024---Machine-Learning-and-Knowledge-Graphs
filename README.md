@@ -26,11 +26,11 @@ graph LR
 ```
 In this diagram:
 
-Drug interacts with Protein, which is part of a Pathway.
-The Pathway involves a Gene.
-A Hidden Node represents potential undiscovered relationships.
-Hidden Node has potential links to both Protein and Pathway.
-Protein and Gene can potentially predict a Drug Safety Indicator.
+* Drug interacts with Protein, which is part of a Pathway.
+* The Pathway involves a Gene.
+* A Hidden Node represents potential undiscovered relationships.
+* Hidden Node has potential links to both Protein and Pathway.
+* Protein and Gene can potentially predict a Drug Safety Indicator.
 
 ## Requirements
 
