@@ -10,6 +10,28 @@ This repository contains a single Jupyter Notebook file (`MIE.ipynb`) which incl
 
 Artificial Intelligence (AI), particularly Machine Learning (ML), has gained attention for its potential in various domains. However, approaches integrating symbolic AI with ML on Knowledge Graphs have not gained significant focus yet. We argue that exploiting RDF/OWL semantics while conducting ML could provide useful insights. We present a use case using signaling pathways from the Reactome database to explore drug safety. Promising outcomes suggest the need for further investigation and collaboration with domain experts.
 
+## Visual Representation
+
+### Hidden Node Logic and Link Prediction
+
+```mermaid
+graph LR
+    A[Drug] -->|interacts with| B[Protein]
+    B -->|part of| C[Pathway]
+    C -->|involves| D[Gene]
+    E[Hidden Node] -.->|potential link| B
+    E -.->|potential link| C
+    B -->|potential prediction| F[Drug Safety Indicator]
+    D -->|potential prediction| F
+```
+In this diagram:
+
+Drug interacts with Protein, which is part of a Pathway.
+The Pathway involves a Gene.
+A Hidden Node represents potential undiscovered relationships.
+Hidden Node has potential links to both Protein and Pathway.
+Protein and Gene can potentially predict a Drug Safety Indicator.
+
 ## Requirements
 
 The Jupyter Notebook includes all the necessary code to install the required packages in the initial cells. The key dependency is:
