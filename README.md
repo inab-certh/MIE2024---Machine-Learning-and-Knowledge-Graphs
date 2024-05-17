@@ -1,18 +1,18 @@
-# Machine Learning upon RDF Knowledge Graphs for Drug Safety: A Case Study on Reactome Data
+# Machine Learning upon RDF Knowledge Graphs for drug safety: a case study on Reactome data
 
-Welcome to the repository for the supplementary material associated with the poster "Machine Learning upon RDF Knowledge Graphs for Drug Safety: A Case Study on Reactome Data" submitted to the MIE 2024 conference.
+Welcome to the repository for the supplementary material associated with the poster "Machine Learning upon RDF Knowledge Graphs for drug safety: a case study on Reactome data" submitted to the MIE 2024 conference.
 
 ## Contents
 
 This repository contains a single Jupyter Notebook file (`MIE.ipynb`) which includes the supplementary Python code that supports the findings and visualizations presented in the poster.
 
-## Poster Abstract
+## Poster abstract
 
 Artificial Intelligence (AI), particularly Machine Learning (ML), has gained attention for its potential in various domains. However, approaches integrating symbolic AI with ML on Knowledge Graphs have not gained significant focus yet. We argue that exploiting RDF/OWL semantics while conducting ML could provide useful insights. We present a use case using signaling pathways from the Reactome database to explore drug safety. Promising outcomes suggest the need for further investigation and collaboration with domain experts.
 
-## Visual Representation
+## Visual representation
 
-### Hidden Node Logic and Link Prediction
+### Hidden node logic and link prediction
 
 ```mermaid
 graph LR
