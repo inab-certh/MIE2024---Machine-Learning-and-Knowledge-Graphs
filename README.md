@@ -12,7 +12,7 @@ Artificial Intelligence (AI), particularly Machine Learning (ML), has gained att
 
 ## Requirements
 
-The Jupyter Notebook includes all the necessary code to install the required packages in the initial cells. The key dependencies are:
+The Jupyter Notebook includes all the necessary code to install the required packages in the initial cells. The key dependency is:
 - `mowl-borg`
 
 ## Usage
@@ -43,7 +43,7 @@ This work is presented at the MIE 2024 conference. For more information about th
 
 ## Contact
 
-For any questions or further information, please contact dr. Kalliopi Kastampolidou at [kkastampolidou@certh.gr](mailto:kkastampolidou@certh.gr).
+For any questions or further information, please contact Dr. Kalliopi Kastampolidou at [kkastampolidou@certh.gr](mailto:kkastampolidou@certh.gr).
 
 ---
 
